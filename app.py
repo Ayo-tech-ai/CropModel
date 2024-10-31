@@ -18,7 +18,7 @@ class CropRecommendationModel:
         return predicted_crops
 
 # Load the model
-from joblib import load
+    from joblib import load
     model =  joblib.load("crop_recommendation_model.joblib")
 
 # Sidebar for page navigation
